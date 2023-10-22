@@ -1,0 +1,90 @@
+body{
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.maniContainer{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    height: 50px;
+    flex:2
+}
+
+.container-content{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    width: 20%;
+    /* background-color: bisque; */
+    border-width: 10px;
+}
+
+.text-heading {
+    font-size: 14;
+    font-weight: 500;
+}
+
+.delete-text {
+    color: azure;
+}
+
+.icon-button{
+    background-color: transparent;
+    border-width: 0cap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 0%;
+    margin-top: 8%;
+}
+
+.icon-button2{
+    background-color: transparent;
+    border-width: 0cap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 0%;
+    /* margin-top: 5%; */
+}
+
+.delete-button{
+    background-color: #ff5171;
+    border-width: 0.1cap;
+    padding: 0.1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 20cap;
+    margin-top: 2.5%;
+}
+
+.input-detail{
+    width: 100%;
+    height: 56px;
+    position: relative;
+    /* padding: 0px 16px; */
+    border: none;
+    border-radius: 4px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    font-style: italic;
+    line-height: normal;
+    background-color: transparent;
+    color:black;
+    outline: none;
+    box-shadow: 0px 4px 20px 0px transparent;
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+}
